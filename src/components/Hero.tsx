@@ -28,7 +28,7 @@ export function Hero() {
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-ink-900 text-balance sm:text-5xl lg:text-[3.4rem]">
-              Learn How to Run Meta Advertisements
+              Learn How to Run Meta Ads
             </h1>
 
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 text-pretty">

@@ -11,13 +11,12 @@ export function FinalCTA() {
       <div className="mx-auto max-w-2xl px-5 text-center sm:px-6">
         <Reveal>
           <h2 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl text-balance">
-            Ready to Explore New Earning &amp; Growth Opportunities?
+            Ready to Start Attracting Customers Online?
           </h2>
         </Reveal>
         <Reveal delay={80}>
           <p className="mt-4 text-lg text-ink-300">
-            Join Anuj's LIVE Digital Marketing Workshop and learn practical online marketing skills
-            you can start exploring for your own goals.
+            Join Anuj's LIVE workshop and learn how Meta Ads and Google Ads can help you grow your business online.
           </p>
         </Reveal>
         <Reveal delay={140}>

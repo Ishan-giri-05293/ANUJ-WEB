@@ -39,14 +39,15 @@ export function Navbar() {
         <a
           href="#top"
           className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-ink-900"
-          aria-label={`${workshopConfig.instructor.name} — Home`}
+          aria-label="Skillup Academy — Home"
         >
           <img
             src={workshopConfig.assets.academyLogo}
-            alt="SkillUp Academy"
+            alt="Skillup Academy"
             className="h-8 w-auto max-w-[36px] object-contain"
           />
-          <span>{workshopConfig.instructor.name}</span>
+
+          <span>Skillup Academy</span>
         </a>
 
         {/* Desktop nav */}
@@ -60,6 +61,7 @@ export function Navbar() {
               {link.label}
             </button>
           ))}
+
           <button
             onClick={openWhatsAppRegistration}
             className="flex items-center gap-1.5 rounded-full bg-ink-900 px-5 py-2 text-sm font-semibold text-ink-50 transition-all hover:bg-ink-800 hover:shadow-lift active:scale-95"
@@ -93,6 +95,7 @@ export function Navbar() {
                 {link.label}
               </button>
             ))}
+
             <button
               onClick={() => {
                 setMenuOpen(false);

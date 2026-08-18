@@ -2,7 +2,7 @@ export const workshopConfig = {
   instructor: {
     name: 'Anuj Kesari',
     bio: 'Anuj teaches practical Meta Ads, Google Ads and online advertising in a simple, beginner-friendly way — helping new businesses attract customers and grow online.',
-    photoUrl: 'https://images.pexels.com/photos/37894130/pexels-photo-37894130.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    photoUrl: '/assets/images/instructor.jpg',
   },
   assets: {
     academyLogo: '/assets/images/WhatsApp_Image_2026-08-17_at_13.42.24.jpeg',
