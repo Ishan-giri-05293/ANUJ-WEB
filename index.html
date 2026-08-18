@@ -28,7 +28,7 @@
     />
     <meta property="og:site_name" content="Skill UP Academy" />
 
-    <!-- IMPORTANT: replace this image with your actual workshop poster -->
+    <!-- Workshop Preview Image -->
     <meta
       property="og:image"
       content="https://anuj-web-dun.vercel.app/og-workshop.jpg"
@@ -60,10 +60,39 @@
     />
 
     <title>Live Digital Marketing Workshop with Anuj Kesari — ₹149</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '1053878794014039');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
   </head>
 
   <body>
+
+    <!-- Meta Pixel NoScript Fallback -->
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=1053878794014039&ev=PageView&noscript=1"
+        alt=""
+      />
+    </noscript>
+
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

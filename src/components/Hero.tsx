@@ -28,12 +28,11 @@ export function Hero() {
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-ink-900 text-balance sm:text-5xl lg:text-[3.4rem]">
-              Learn How to Run Meta Ads
+              Master Online Marketing for New Earning Opportunities & Business Growth
             </h1>
 
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 text-pretty">
-              Learn how to use Meta Ads and Google Ads to attract customers online and grow a new
-              business through practical, beginner-friendly advertising strategies.
+              Whether you're a student looking to start earning, a freelancer looking to get more clients, or a business owner looking to attract more customers, this 2-hour workshop is for you.
             </p>
 
             {/* Workshop meta */}
