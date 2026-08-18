@@ -22,7 +22,7 @@ export const workshopConfig = {
     certificate: 'Certificate of Completion',
   },
   registration: {
-    whatsappNumber: '917318154018',
+    whatsappNumber: '+917235851971', // Replace with real number later
     ctaLabel: 'Join the Workshop',
   },
 } as const;
